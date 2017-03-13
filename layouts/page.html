@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+  {{> head title=title description=description }}
+</head>
+<body>
+  <main class="container">
+    {{> header}}
+    <h1>{{title}}</h1>
+    <p>{{__ 'content'}}</p>
+  </main>
+  {{> footer}}
+  <script inline src="scripts/hello-world.js"></script>
+</body>
+</html>

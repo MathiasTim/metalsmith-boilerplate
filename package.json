@@ -1,0 +1,37 @@
+{
+  "name": "metalsmith-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {},
+  "scripts": {
+    "serve": "node index.js --serve",
+    "start": "node index.js",
+    "build:prod": "node index.js --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "handlebars": "^4.0.6",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-autoprefixer": "^1.1.1",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-clean": "0.0.0",
+    "metalsmith-data-markdown": "0.0.3",
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-html-minifier": "^2.2.0",
+    "metalsmith-i18n": "^0.2.0",
+    "metalsmith-in-place": "^2.0.1",
+    "metalsmith-inline-source": "^1.0.6",
+    "metalsmith-layouts": "^1.8.0",
+    "metalsmith-multi-language": "^0.2.0",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-rootpath": "^1.0.4",
+    "metalsmith-sass": "^1.4.0",
+    "metalsmith-static": "0.0.5",
+    "node-sass-asset-functions": "^0.1.0"
+  },
+  "devDependencies": {},
+  "config": {}
+}

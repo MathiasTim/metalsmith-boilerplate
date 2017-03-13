@@ -1,0 +1,21 @@
+<header class="nav-header">
+  <nav>
+    {{#ifEquals locale 'de'}}
+    <a href="{{rootPath}}de/">
+    {{else}}
+    <a href="{{rootPath}}">
+    {{/ifEquals}}
+      {{__ 'home'}}
+    </a>
+    &nbsp;
+    <a href="{{rootPath}}/{{locale}}/other-page">{{__ 'other_page'}}</a>
+  </nav>
+  <nav>
+    <span>{{__ 'switch_language_to'}}: </span>
+    {{#ifEquals locale 'de'}}
+    <a href="{{rootPath}}">{{__ 'english'}}</a>
+    {{else}}
+    <a href="{{rootPath}}/de">{{__ 'german'}}</a>
+    {{/ifEquals}}
+  </nav>
+</header>

@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  div {
+    .logo {
+      max-width: 100px;
+    }
+    .html5 {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      background-size: contain;
+      background-image: inline-image('../assets/html5-logo.svg');
+    }
+  }
+}
